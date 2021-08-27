@@ -8,6 +8,7 @@
           {{ activity.location }}
         </p>
       </div>
+      <router-link :to="{ name: 'AddActivity' }">Add Activity</router-link>
     </div>
     <div v-else>
       <p>Loading activities...</p>

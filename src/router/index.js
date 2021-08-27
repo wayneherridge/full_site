@@ -4,6 +4,7 @@ import About from '../views/About.vue';
 import EQHome from '../views/eq-portal/EQHome.vue';
 import AddLesson from '../views/eq-portal/lessons/AddLesson.vue';
 import EditLesson from '../views/eq-portal/lessons/EditLesson.vue';
+import AddActivity from '../views/eq-portal/activities/AddActivity.vue';
 
 const routes = [
   {
@@ -27,6 +28,11 @@ const routes = [
     name: 'EditLesson',
     component: EditLesson,
     props: true,
+  },
+  {
+    path: '/add_activity',
+    name: 'AddActivity',
+    component: AddActivity,
   },
   {
     path: '/about',

@@ -13,6 +13,18 @@
       "location": "Portsmouth Chapel",
       "date": "25/08/2021",
       "time": "730 pm"
+    },
+    {
+      "title": "test",
+      "location": "portsmouth",
+      "id": 2
+    },
+    {
+      "title": "Try again",
+      "location": "Portsmouth",
+      "date": "2021-08-27",
+      "time": "10:00",
+      "id": 3
     }
   ],
   "announcements": [

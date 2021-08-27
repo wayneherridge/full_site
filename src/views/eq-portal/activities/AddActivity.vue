@@ -1,10 +1,14 @@
 <template>
   <form @submit.prevent="handleSubmit">
+    <label>Title:</label>
+    <input type="text" v-model="title" required />
+    <label>Location:</label>
+    <input type="text" v-model="location" required />
     <label>Date:</label>
     <input type="date" v-model="date" required />
-    <label>Lesson:</label>
-    <input type="text" v-model="lesson" required />
-    <button>Add Lesson</button>
+    <label>Time:</label>
+    <input type="time" v-model="time" required />
+    <button>Add Activity</button>
   </form>
 </template>
 
@@ -12,20 +16,24 @@
 export default {
   data() {
     return {
+      title: '',
+      location: '',
       date: '',
-      lesson: '',
+      time: '',
     };
   },
   methods: {
     handleSubmit() {
-      let lessondetails = {
+      let activities = {
+        title: this.title,
+        location: this.location,
         date: this.date,
-        lesson: this.lesson,
+        time: this.time,
       };
-      fetch('http://localhost:3000/lessons', {
+      fetch('http://localhost:3000/activities', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(lessondetails),
+        body: JSON.stringify(activities),
       })
         .then(() => {
           this.$router.push('/EQHome');
