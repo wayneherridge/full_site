@@ -7,6 +7,9 @@
           {{ activity.date }} - {{ activity.time }} - {{ activity.title }} -
           {{ activity.location }}
         </p>
+        <router-link :to="{ name: 'EditActivity', params: { id: activity.id } }"
+          >Edit</router-link
+        >
       </div>
       <router-link :to="{ name: 'AddActivity' }">Add Activity</router-link>
     </div>
@@ -18,6 +21,7 @@
 
 <script>
 export default {
+  props: ['activities'],
   data() {
     return {
       activities: [],

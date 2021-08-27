@@ -15,9 +15,11 @@
       "time": "730 pm"
     },
     {
-      "title": "test",
+      "title": "Now this will work",
       "location": "portsmouth",
-      "id": 2
+      "id": 2,
+      "date": "2021-08-21",
+      "time": "11:00"
     },
     {
       "title": "Try again",
