@@ -1,0 +1,50 @@
+{
+  "activities": [
+    {
+      "id": 1,
+      "title": "Football",
+      "location": "Portsmouth Chapel",
+      "date": "25/08/2021",
+      "time": "730 pm"
+    },
+    {
+      "id": 1,
+      "title": "Football",
+      "location": "Portsmouth Chapel",
+      "date": "25/08/2021",
+      "time": "730 pm"
+    }
+  ],
+  "announcements": [
+    {
+      "id": 1,
+      "date": "26/08/2021",
+      "time": "10pm",
+      "information": "Baptism"
+    },
+    {
+      "id": 1,
+      "date": "26/08/2021",
+      "time": "10pm",
+      "information": "Baptism"
+    }
+  ],
+  "lessons": [
+    {
+      "date": "2021-08-29",
+      "lesson": "testing123",
+      "id": 4
+    },
+    {
+      "date": "2021-08-28",
+      "lesson": "this is a test - it worked!!!",
+      "id": 5
+    }
+  ],
+  "mainmessage": [
+    {
+      "id": 1,
+      "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel est a ligula convallis dictum. Curabitur rhoncus egestas sodales. Morbi in neque volutpat, eleifend ante tincidunt, commodo justo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer ipsum odio, pharetra vel feugiat ultricies, iaculis ut risus. Donec nec elementum ante. Etiam eget libero aliquam, molestie mauris ut, posuere mi. Nullam malesuada metus nec velit porta aliquam. Suspendisse malesuada leo lorem, eget consequat est rutrum id. Aliquam erat volutpat."
+    }
+  ]
+}
