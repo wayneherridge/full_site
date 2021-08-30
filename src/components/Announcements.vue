@@ -7,7 +7,11 @@
           {{ announcement.date }} - {{ announcement.time }} -
           {{ announcement.information }}
         </p>
+        <router-link :to="{ name: 'EditAnn', params: { id: announcement.id } }"
+          >Edit</router-link
+        >
       </div>
+      <router-link :to="{ name: 'AddAnn' }">Add Announcement</router-link>
     </div>
     <div v-else>
       <p>Loading announcements...</p>

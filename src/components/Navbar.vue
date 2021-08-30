@@ -3,14 +3,22 @@
     <h3>The Hub</h3>
     <nav>
       <router-link :to="{ name: 'Home' }">Home</router-link>
-      <router-link :to="{ name: 'EQHome' }">EQ-Portal</router-link>
+      <!-- <router-link :to="{ name: 'EQHome' }">EQ-Portal</router-link> -->
+      <Pages title="Pages" />
       <router-link :to="{ name: 'About' }">About</router-link>
     </nav>
   </header>
 </template>
 
 <script>
-export default {};
+import Pages from '../components/Pages.vue';
+
+export default {
+  name: 'pages',
+  components: {
+    Pages,
+  },
+};
 </script>
 
 <style>

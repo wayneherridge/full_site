@@ -1,7 +1,10 @@
 <template>
-  <div v-if="mainmessage.length">
-    <div v-for="message in mainmessage" :key="message.id" class="card">
+  <div v-if="message.length">
+    <div v-for="message in message" :key="message.id" class="card">
       <p>{{ message.message }}</p>
+      <router-link :to="{ name: 'EditMessage', params: { id: message.id } }"
+        >Edit</router-link
+      >
     </div>
   </div>
   <div v-else>
@@ -13,13 +16,13 @@
 export default {
   data() {
     return {
-      mainmessage: [],
+      message: [],
     };
   },
   mounted() {
-    fetch('http://localhost:3000/mainmessage')
+    fetch('http://localhost:3000/message')
       .then((res) => res.json())
-      .then((data) => (this.mainmessage = data))
+      .then((data) => (this.message = data))
       .catch((err) => console.log(err.message));
   },
 };

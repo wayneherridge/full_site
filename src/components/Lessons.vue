@@ -38,9 +38,9 @@ export default {
   border-radius: 5px;
   background: green;
   flex-grow: 4;
-  margin: 20px;
+  margin: 10px;
   background: white;
-  padding: 10px 20px;
+  padding: 10px;
   border-radius: 4px;
   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.05);
 }
