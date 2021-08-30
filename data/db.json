@@ -64,7 +64,7 @@
   "message": [
     {
       "id": 1,
-      "message": "This is a new message!"
+      "message": "This is a new message!\nI can edit this each time I want to add a new message. There is no need to save these in history at this point."
     }
   ]
 }
