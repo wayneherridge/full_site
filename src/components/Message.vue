@@ -3,7 +3,7 @@
     <div v-for="message in message" :key="message.id" class="card">
       <p>{{ message.message }}</p>
       <router-link :to="{ name: 'EditMessage', params: { id: message.id } }"
-        >Edit</router-link
+        ><button class="router-button">Edit</button></router-link
       >
     </div>
   </div>

@@ -8,10 +8,12 @@
           {{ activity.location }}
         </p>
         <router-link :to="{ name: 'EditActivity', params: { id: activity.id } }"
-          >Edit</router-link
+          ><button class="router-button">Edit</button></router-link
         >
       </div>
-      <router-link :to="{ name: 'AddActivity' }">Add Activity</router-link>
+      <router-link :to="{ name: 'AddActivity' }"
+        ><button class="router-button">Add</button></router-link
+      >
     </div>
     <div v-else>
       <p>Loading activities...</p>

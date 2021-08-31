@@ -5,10 +5,12 @@
       <div v-for="lesson in lessons" :key="lesson.id" class="lesson">
         <p>{{ lesson.date }} - {{ lesson.lesson }}</p>
         <router-link :to="{ name: 'EditLesson', params: { id: lesson.id } }"
-          >Edit</router-link
+          ><button class="router-button">Edit</button></router-link
         >
       </div>
-      <router-link :to="{ name: 'AddLesson' }">Add lesson</router-link>
+      <router-link :to="{ name: 'AddLesson' }"
+        ><button class="router-button">Add</button></router-link
+      >
     </div>
     <div v-else>
       <p>Loading lessons...</p>
