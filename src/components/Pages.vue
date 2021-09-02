@@ -11,7 +11,7 @@
 
 <script>
 export default {
-  name: 'pages',
+  name: 'Projects',
   props: ['title'],
   data() {
     return {

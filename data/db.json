@@ -2,31 +2,17 @@
   "activities": [
     {
       "id": 1,
-      "title": "Football",
-      "location": "Portsmouth Chapel",
-      "date": "25/08/2021",
-      "time": "730 pm"
+      "title": "Test3",
+      "date": "2021-08-28",
+      "time": "20:03",
+      "location": "here"
     },
     {
-      "id": 1,
-      "title": "Football",
-      "location": "Portsmouth Chapel",
-      "date": "25/08/2021",
-      "time": "730 pm"
-    },
-    {
-      "title": "Now this will work",
-      "location": "portsmouth",
-      "id": 2,
-      "date": "2021-08-21",
-      "time": "11:00"
-    },
-    {
-      "title": "Try again",
-      "location": "Portsmouth",
-      "date": "2021-08-27",
-      "time": "10:00",
-      "id": 3
+      "title": "new one",
+      "location": "home",
+      "date": "2021-09-01",
+      "time": "22:00",
+      "id": 2
     }
   ],
   "announcements": [
@@ -52,7 +38,7 @@
   "lessons": [
     {
       "date": "2021-08-29",
-      "lesson": "testing123",
+      "lesson": "testing1234",
       "id": 4
     },
     {

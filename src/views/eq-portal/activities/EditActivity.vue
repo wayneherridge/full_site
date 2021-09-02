@@ -8,7 +8,7 @@
     <input type="date" v-model="date" required />
     <label>Time:</label>
     <input type="time" v-model="time" required />
-    <button>Update Lesson</button>
+    <button>Update Activity</button>
   </form>
 </template>
 

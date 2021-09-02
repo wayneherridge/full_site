@@ -4,7 +4,7 @@
     <nav>
       <router-link :to="{ name: 'Home' }">Home</router-link>
       <!-- <router-link :to="{ name: 'EQHome' }">EQ-Portal</router-link> -->
-      <Pages title="Pages" />
+      <Pages title="Projects" />
       <router-link :to="{ name: 'About' }">About</router-link>
     </nav>
   </header>
